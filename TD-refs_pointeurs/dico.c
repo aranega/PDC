@@ -4,7 +4,7 @@
 int dico_search(int val, int *tab, int size)
 {
   int a = 0, b = size;
-  while (a < b) {
+  while (a <= b) {
     int m = (a + b) / 2;
     if (tab[m] == val) return m;
     if (tab[m] > val) b = m - 1;
