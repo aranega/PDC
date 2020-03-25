@@ -17,7 +17,7 @@ int dico_search(int val, int *tab, int size)
 void * bsearch(const void *key, const void *base, unsigned int nel,
                unsigned int width , int (*compar)(const void *, const void *))
 {
-
+  return NULL;
 }
 
 int comp_int(const void *a, const void *b)
