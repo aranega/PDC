@@ -31,6 +31,7 @@ int main()
 {
   int tab[10] = {1, 3, 5, 6, 7, 8, 9, 12, 34, 55};
   int val = 5;
-
+  int * res = bsearch(&val, tab, 10, sizeof(int), comp_int);
+  printf("%d\n", *res);
   return 0;
 }
