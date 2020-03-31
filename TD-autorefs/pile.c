@@ -37,11 +37,11 @@ int main(void)
   pile_t pile;
   init(&pile);
   printf("is pile empty? %s\n", is_empty(pile) ? "yes": "no");
-  printf("Pushing 5");
+  printf("Pushing 5\n");
   push(&pile, 5);
   printf("is pile empty? %s\n", is_empty(pile) ? "yes": "no");
 
-  printf("Pushing 23");
+  printf("Pushing 23\n");
   push(&pile, 23);
   printf("is pile empty? %s\n", is_empty(pile) ? "yes": "no");
 
