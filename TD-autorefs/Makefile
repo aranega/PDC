@@ -1,4 +1,4 @@
-all: pile strdup
+all: pile strdup init_param poly
 
 %: %.c
-	gcc -o $@ $<
+	gcc -o $@ $< -g
